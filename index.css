@@ -1,0 +1,178 @@
+/* full page */
+
+html {
+    font-family: poppins;
+}
+
+.container {
+    display: flex;
+    width: 100%
+}
+
+/* header */
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding: 1.5rem;
+    height: 2rem;
+    /*background: black;*/
+}
+
+#OP{
+    display: flex;
+    max-width: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    align-self: center;
+    background-color: #9a9494;
+    color: #e7e5e5;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+#OP p {
+    border: solid 1px green;
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-weight: bold;
+}
+
+#navigation{
+    display: flex;
+    align-self: center;
+}
+
+#navigation li {
+    display: inline;
+    text-decoration: none;
+    padding: .25rem;
+}
+
+/* Main */
+/* Banner */
+
+#banner {
+    height: 10rem;
+    overflow: hidden;
+}
+#banner img{
+    max-width: 100%;
+    align-self: center;
+}
+
+/* Mission */
+
+#about_me {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#about {
+    align-self: center;
+    padding: 1rem 11.11rem;
+}
+
+#about_me img {
+    margin: 1rem 11.11rem 1rem 0;
+    border-radius: 10% 10%;
+}
+
+/* IMG Nav */
+
+#imgnav {
+    display:flex;
+    max-width: 100%;
+    padding: 1rem 1% 1rem;
+
+}
+
+#imgnav img{
+    display: block;
+    max-width: 100%;
+    background-color: #9a9494;
+}
+
+#image a{
+    text-decoration:none;
+    visibility: hidden;
+}
+
+#image a:hover {
+    visibility: visible;
+}
+
+.imgtxt{
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    width:100%;
+    color: #e7e5e5;
+    background-color: #9a9494;
+    visibility: hidden;
+    }
+
+/* About Me */
+
+#aboutme {
+    margin-left: 11.11rem;    
+}
+.container .employee {
+    padding: 1rem 11.11rem 1rem 0;
+}
+
+.employee {
+    display: flex;  
+}
+
+.employee .image {
+    max-width: 30rem;;
+    margin: 1rem 5rem;
+}
+.employee .info {
+    max-width: 50%;
+    align-self: center;
+    padding: 1rem;
+    align-self: start;
+}
+
+.employee img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10% 10%;
+}
+
+#cats {
+    display: flex;
+    margin: 0 5rem;
+}
+
+#cats .info {
+    
+}
+
+#cats .employee {
+    
+}
+
+#cats #images {
+    display: flex;
+    max-width: 17.5rem;  
+}
+
+#potato {
+    padding-left: .5rem;
+}
+
+
+
